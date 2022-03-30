@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   minitalk.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tterribi <tterribi@student.42roma.it>      +#+  +:+       +#+        */
+/*   By: tterribi <tterribi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 11:59:04 by tterribi          #+#    #+#             */
-/*   Updated: 2022/03/29 20:29:53 by tterribi         ###   ########.fr       */
+/*   Updated: 2022/03/30 16:18:05 by tterribi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,5 @@
 # include "ft_printf/ft_printf.h"
 
 int		ft_atoi(const char *str);
-void	*ft_memset(void *str, int c, size_t n);
-void	decimal_to_binary(int decimal, char *octet);
-int		ft_strlen(char *str);
 
 #endif
